@@ -1,0 +1,23 @@
+.top {
+  text-align: center;
+  color: #ffffff; /* Text color */
+  background-color: #4a90e2; /* Blue background */
+  padding: 25px;
+  border-radius: 12px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+  .top h1 {
+    margin: 12px 0;
+    font-size: 2.2rem;
+    color: #ffeb3b; /* Yellow title */
+    font-weight: 600;
+  }
+
+  .top h2 {
+    margin: 8px 0;
+    font-size: 1.6rem;
+    color: #ffffff; /* White subtitle */
+    font-weight: 400;
+  }

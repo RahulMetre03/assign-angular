@@ -1,0 +1,18 @@
+<div class="query">
+
+  <p>Choose Chart Type:</p>
+  <select (change)="onChartTypeChange($event)" style="margin-bottom: 20px;">
+    <option value="bar">Bar Chart</option>
+    <option value="line">Line Chart</option>
+    <option value="scatter">Scatter Chart</option>
+  </select>
+
+</div>
+
+
+<div echarts
+     [options]="chartOption"
+     (chartInit)="onChartInit($event)"
+     class="demo-chart"
+     style="height: 400px; width: 100%;">
+</div>
