@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
   styleUrl: './description.component.css'
 })
 export class DescriptionComponent {
-  title = "Welcome to xyz data dashboard";
-  description = "This page was created using angular and concepts of component was used";
+  title = "Welcome to sample sales data dashboard";
+  description = "This page was created using angular and concepts of component were used";
 }
